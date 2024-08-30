@@ -1,21 +1,23 @@
 
 class Hello // A file name
 {
-    // Java is object oriented
     public static void main(String a[])
     {
-        // Variables in Java
-        int num1 = 3;
-        int num2 = 5;
-        int result = num1 + num2;
-        System.out.println(result);
-        // System.out.println(8 + 7);        
+        // Data types in Java
+        int num1 = 9;
+        byte by = 127;
+        short sh = 558;
+        long l = 419664l;
+
+        float f = 5.8f;
+        double d = 5.8;
+
+        char c = 'k'; // Only single quote
+
+        boolean b = true;
     }
 }
 
 
-// To compile in terminal: javac Hello.java
-// To output to console: java Hello
-// JVM - Java Virtual Machine
-// JRE - Java Runtime Environment
-// WORA - Write once and run anywhere
+// Compile in terminal: java + c Hello.java
+// Run on console: java Hello
