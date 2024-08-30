@@ -1,26 +1,24 @@
 
-class Hello // A file name
+class Hello
 {
     public static void main(String args[])
     {
-        // Type Conversion in Java - casting
-        // byte b = 127;
-        int a = 12;
-        byte k = (byte)a;
+        // Arithmetic Operators in Java
+        int num1 = 7;
+        // int num2 = 5;
 
-        float f = 5.6f;
-        int t = (int)f;
+        // int result = num1 % num2;
 
-        System.out.println(k);
-        System.out.println(a);
-        System.out.println(t);  
+        // num1 = num1 + 2;
+        // num1 *= 8; // Short cut
+        // num1++; // Post - Increment
+        // ++num1; // Pre - Increment (when try to fetch the values)
+        // num1--; // Decrement
 
-        byte c = 10;
-        byte d = 30;
+        int result = num1++;  // Fetch the value and then increment value
+        // int result = ++num1;  // increment value and then fetch the value
 
-        int result = c * d; // Type promotion
-
-        System.out.println(result);  
+        System.out.println(result);
     }
 }
 
