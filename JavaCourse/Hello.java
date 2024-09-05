@@ -3,16 +3,18 @@ class Hello
 {
     public static void main(String args[])
     {
-        // Logical Operators in Java
-        int x = 7;
-        int y = 5;
-        int a = 5;
-        int b = 9;
+        // If else in Java
+        int x = 8;
+        int y = 7;
 
-        // boolean result = x < y || a < b || a > 1;
-        boolean result = a > b;        
-
-        System.out.println(!result);
+        // if (x > 10 && x <= 20) // 11 - 20
+        if (x > y)
+        {
+            System.out.println(x);
+            System.out.println("Thank You");
+        }
+        else
+            System.out.println(y);
     }
 }
 
