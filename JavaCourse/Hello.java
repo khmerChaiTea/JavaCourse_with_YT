@@ -3,16 +3,16 @@ class Hello
 {
     public static void main(String args[])
     {
-        // Relational Operators in Java
-        double x = 8.8;
-        double y = 9.8;
+        // Logical Operators in Java
+        int x = 7;
+        int y = 5;
+        int a = 5;
+        int b = 9;
 
-        // int a = 8;
-        // int b = 6;
+        // boolean result = x < y || a < b || a > 1;
+        boolean result = a > b;        
 
-        boolean result = x >= y;
-
-        System.out.println(result);
+        System.out.println(!result);
     }
 }
 
