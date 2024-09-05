@@ -3,18 +3,18 @@ class Hello
 {
     public static void main(String args[])
     {
-        // If else in Java
+        // If Else If in Java
         int x = 8;
         int y = 7;
+        int z = 9;
 
-        // if (x > 10 && x <= 20) // 11 - 20
-        if (x > y)
-        {
+
+        if (x > y && x > z) // False
             System.out.println(x);
-            System.out.println("Thank You");
-        }
-        else
+        else if (y > z)
             System.out.println(y);
+        else
+            System.out.println(z);
     }
 }
 
